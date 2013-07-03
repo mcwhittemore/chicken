@@ -19,7 +19,7 @@ var run = function(userArgs){
 
   var chicken = require("../lib/chicken");
 
-  console.log("FILE", file);
+  //console.log("FILE", file);
   var code = read(file, {encoding:"utf8"});
 
   var result = chicken(input, code);
