@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "name": "chicken",
+  "description": "A command line tool that lets you run chicken scripts",
+  "keywords": [],
+  "preferGlobal": true,
+  "author": "Matthew Chase Whittemore <mcwhittemore@gmail.com> (http://willrobotsdream.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcwhittemore/chicken"
+  },
+  "main": "./lib/chicken.js",
+  "bin": "./bin/chicken.js",
+  "dependencies": {},
+  "bundleDependencies": [],
+  "scripts": {
+    "test": "node ./test/torso.me.js",
+    "echo": "node bin/npm-cli.js"
+  }
+}

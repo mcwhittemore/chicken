@@ -1,6 +1,6 @@
 var read = require("fs").readFileSync;
 
-var chicken = require("./chicken");
+var chicken = require("./lib/chicken");
 
 console.assert(chicken("","chicken") === "chicken");
 console.assert(chicken("test foo", read("chicken/echocat.chicken") + "") == "test foo")
